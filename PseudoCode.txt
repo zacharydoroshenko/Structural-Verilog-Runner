@@ -1,0 +1,43 @@
+Todo:
+when losing all lives it goes to the top and then ends
+colliding makes player a rainbow
+
+
+Notes:
+using 64 values of frame is an ok way to count 1 second
+
+
+Milestone 1 ------------------------------------------------------------------------------------------
+Colors:
+Yellow
+green
+purple
+Gray
+Red
+Black
+White
+
+
+
+Basic outline:
+
+if(in visible range):
+    if(inside outer border):
+        if(inside bar):
+            color = green
+        else if(inside player):
+            color = purple
+        else if(inside floor):
+            color = white
+        else if(inside basement):
+            color = gray
+    else:
+        color = red
+else:
+    color = black
+
+int barLength = 0;
+if(button up):
+    barLength += 1;
+
+if(butt)
