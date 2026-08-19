@@ -46,10 +46,3 @@ Requires AMD/Xilinx Vivado (built and tested on 2023.2) and a Digilent Basys 3 b
 5. Program the board and connect a VGA or HDMI monitor.
 
 Controls: hold the jump button to charge a jump, release to leap over the next pit.
-
-## Notes for whoever's reading this on GitHub
-
-- Built for UC San Diego's CSE 100 (digital design/computer architecture) course, developed inside a Vivado-on-Apple-Silicon Docker container the class provided, since Vivado doesn't natively support ARM Macs.
-- `labVGA_clks.v` is a course-provided starter resource, not original code. `hex7seg.v`, `RingCounter.v`, and `Selector.v` were written for earlier labs in the same course and reused here rather than rewritten from scratch. `top.v`, `Game.v`, `PlayerFSM.v`, `BallFSM.v`, `PixelAddress.v`, `Syncs.v`, and `lfsr.v` are original to this project.
-- `Basys3_Master.xdc` is Digilent's standard master constraints file for the board, not something you wrote, just uncomment the lines your design actually uses.
-- A short clip or GIF of the game running on the actual board would make this repo far more compelling than a file list alone. If you still have the Vivado behavioral simulation frames, even a still from those would help.
